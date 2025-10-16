@@ -211,3 +211,6 @@ __marimo__/
 *.sqlite3
 *.db
 *.sqlite
+
+# Data directory zip files
+data/*.zip

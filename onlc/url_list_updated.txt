@@ -1,0 +1,123 @@
+# URL Inventory for XPYS30-PythonDataAnalysis Repository - FINAL STATUS
+# Updated: October 16, 2025
+
+## Summary
+This document catalogs the final status of URL replacements for the Jupyter notebooks within this repository. All necessary URL replacements have been completed following the established pattern.
+
+## COMPLETED REPLACEMENTS ✅
+
+### ✅ FiveThirtyEight Polling Data - COMPLETED
+**Original URLs:**
+- https://raw.githubusercontent.com/fivethirtyeight/data/master/polls/president_general_polls_2016.csv
+- http://projects.fivethirtyeight.com/general-model/president_general_polls_2016.csv
+
+**Replacement URL:** https://raw.githubusercontent.com/ONLC-ClassMaterials/XPYS30-PythonDataAnalysis/refs/heads/main/data/president_polls_2016.csv
+
+**Files Updated (3):**
+- ✅ exercises/ch01/ex_1-1_polling.ipynb
+- ✅ examples/ch01/ch01_examples.ipynb  
+- ✅ solutions/ch01/ex_1-1_polling_sol.ipynb
+
+**Files Using Local Paths (No Update Needed):**
+- exercises/ch06/ex_6-1_polls.ipynb, solutions/ch06/ex_6-1_polls_sol.ipynb
+- exercises/ch12/ex_12-1_polls.ipynb, solutions/ch12/ex_12-1_polls_sol.ipynb
+
+### ✅ CDC Mortality Data - COMPLETED
+**Original URL:** https://data.cdc.gov/api/views/bi63-dtpu/rows.csv?accessType=DOWNLOAD
+
+**Replacement URL:** https://raw.githubusercontent.com/ONLC-ClassMaterials/XPYS30-PythonDataAnalysis/refs/heads/main/data/mortality.csv
+
+**Files Updated (2):**
+- ✅ examples/ch02/ch02_examples.ipynb
+- ✅ exercises/ch02/ex_2-1_mortality.ipynb
+
+**Files Using Local Paths (No Update Needed):**
+- exercises/ch02/ex_2-2_mortality.ipynb (uses pickle files only)
+
+### ✅ Murach Publishing Data Sources - COMPLETED
+
+#### Sports Data (Basketball/Hockey)
+**Original URL:** https://www.murach.com/python_analysis/shots.json
+
+**Replacement URL:** https://raw.githubusercontent.com/ONLC-ClassMaterials/XPYS30-PythonDataAnalysis/refs/heads/main/data/shots.json
+
+**Files Updated (1):**
+- ✅ examples/ch05/ch05_examples.ipynb
+
+**Files Using Local Paths (No Update Needed):**
+- examples/ch09/ch09_examples.ipynb, exercises/ch09/ex_9-1_stocks.ipynb, solutions/ch09/ex_9-1_stocks_sol.ipynb
+
+#### Automotive Data
+**Original URL:** https://www.murach.com/python_analysis/cars.csv
+
+**Replacement Strategy:** Use GitHub raw content pointing to local copies
+
+**Files Status:** All car data files now use local paths, no URL updates needed
+
+#### Employment Data
+**Original URL:** https://www.murach.com/python_analysis/oesm18all.zip
+
+**Replacement URL:** https://onlcfiles.blob.core.windows.net/coursefiles/XPYS30/oesm18all.zip
+
+**Files Updated (3):**
+- ✅ exercises/ch05/ex2/ex_5-2.ipynb
+- ✅ examples/ch05/ch05_examples.ipynb
+- ✅ solutions/ch05/ex2/ex_5-2_sol.ipynb
+
+**Files Using Local Paths (No Update Needed):**
+- data/download_more_data.ipynb
+
+#### Fire Data
+**Original URL:** https://www.murach.com/python_analysis/FPA_FOD_20170508.zip
+
+**Replacement URL:** https://onlcfiles.blob.core.windows.net/coursefiles/XPYS30/
+
+**Files Status:** Fire data files now use local paths and pickle files, no URL updates needed
+
+### ✅ GSS Survey Data - COMPLETED
+**Original URL:** https://gss.norc.org/documents/stata/GSS7218_R3.DTA
+
+**Replacement URL:** https://onlcfiles.blob.core.windows.net/coursefiles/XPYS30/GSS7218_R3.DTA
+
+**Files Status:** All GSS files now use local paths, no URL updates needed
+
+## URL REPLACEMENT PATTERN USED
+
+All replacements followed this consistent pattern:
+```python
+# original_url = 'https://external-source.com/data.csv'
+original_url = 'https://onlc-controlled-source.com/data.csv'
+```
+
+This pattern:
+- Comments out the original URL for reference
+- Replaces with ONLC-controlled URL
+- Maintains variable names for compatibility
+- Preserves functionality while ensuring reliability
+
+## FINAL STATUS SUMMARY
+
+**Total Files Requiring URL Updates:** 9 files
+**Files Successfully Updated:** 9 files ✅
+**Replacement Success Rate:** 100%
+
+**Update Categories:**
+- ✅ FiveThirtyEight URLs: 3 files updated
+- ✅ CDC URLs: 2 files updated  
+- ✅ Murach Employment URLs: 3 files updated
+- ✅ Murach Sports URLs: 1 file updated
+
+**Files Using Local Paths:** Most files now read from local data directories, eliminating external URL dependencies
+
+## Reference URLs in Data Content (Unchanged)
+The following URLs appear in actual data content and were intentionally left unchanged:
+- http://projects.fivethirtyeight.com/polls/* (embedded in polling data)
+- Various PDF and source references within datasets
+
+These are data content references, not source URLs, and should remain as-is.
+
+## Repository Status
+- ✅ All critical URL dependencies replaced with ONLC-controlled sources
+- ✅ Course materials now have reliable, consistent data access
+- ✅ Original URL references preserved in comments for documentation
+- ✅ No external URL dependencies remain for core functionality

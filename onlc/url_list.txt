@@ -1,0 +1,92 @@
+# URL References Found in XPYS30-PythonDataAnalysis Notebooks
+# Generated on October 16, 2025
+
+## Data Source URLs (Primary - Used in Variable Assignments)
+
+### Mortality Data URLs
+- https://raw.githubusercontent.com/scott-murach/pda-data-alt/main/mortality.csv
+- Replace with: https://raw.githubusercontent.com/ONLC-ClassMaterials/XPYS30-PythonDataAnalysis/refs/heads/main/data/mortality.csv
+  - Found in: examples/ch02/ch02_examples.ipynb, examples/ch05/ch05_examples.ipynb, exercises/ch02/ex_2-1_mortality.ipynb
+
+### Polling Data URLs  
+- http://projects.fivethirtyeight.com/general-model/president_general_polls_2016.csv
+- Replace with: https://raw.githubusercontent.com/ONLC-ClassMaterials/XPYS30-PythonDataAnalysis/refs/heads/main/data/president_polls_2016.csv
+  - Found in: exercises/ch01/ex_1-1_polling.ipynb, examples/ch01/ch01_examples.ipynb, solutions/ch01/ex_1-1_polling_sol.ipynb, solutions/ch01/ex_1-1_practice_sol.ipynb, solutions/ch05/ex1/ex_5-1_sol.ipynb, exercises/ch05/ex1/ex_5-1.ipynb
+
+### Sports Data URLs
+- https://www.murach.com/python_analysis/shots.json
+- Replace with: https://raw.githubusercontent.com/ONLC-ClassMaterials/XPYS30-PythonDataAnalysis/refs/heads/main/data/shots.json
+  - Found in: case_studies/curry/curry_case_study.ipynb, exercises/ch05/ex5/ex_5-5.ipynb, examples/ch05/ch05_examples.ipynb, solutions/ch05/ex5/ex_5-5_sol.ipynb
+- https://murach.com/python_analysis/shots.json  
+- Replace with: https://raw.githubusercontent.com/ONLC-ClassMaterials/XPYS30-PythonDataAnalysis/refs/heads/main/data/shots.json
+  - Found in: solutions/ch05/ex5/ex_5-5_sol.ipynb
+
+### Government Survey/Census Data URLs
+- https://www.murach.com/python_analysis/gss_stata_with_codebook.zip
+- Replace with: https://onlcfiles.blob.core.windows.net/coursefiles/XPYS30/GSS_stata.zip
+  - Found in: case_studies/social/social_survey_case_study.ipynb, data/download_more_data.ipynb, solutions/ch05/ex4/ex_5-4_sol.ipynb
+- http://gss.norc.org/Documents/stata/gss_stata_with_codebook.zip
+- Replace with: https://onlcfiles.blob.core.windows.net/coursefiles/XPYS30/GSS_stata.zip 
+  - Found in: exercises/ch05/ex4/ex_5-4.ipynb
+
+### Employment/Labor Data URLs  
+- https://www.bls.gov/oes/special.requests/oesm18all.zip
+- Replace with: https://onlcfiles.blob.core.windows.net/coursefiles/XPYS30/oesm18all.zip
+  - Found in: exercises/ch05/ex2/ex_5-2.ipynb
+- https://www.murach.com/python_analysis/oesm18all.zip
+- Replace with: https://onlcfiles.blob.core.windows.net/coursefiles/XPYS30/oesm18all.zip
+  - Found in: data/download_more_data.ipynb, examples/ch05/ch05_examples.ipynb, solutions/ch05/ex2/ex_5-2_sol.ipynb
+
+### Fire Data URLs
+- https://www.fs.usda.gov/rds/archive/products/RDS-2013-0009.4/RDS-2013-0009.4_SQLITE.zip
+- Replace with: https://onlcfiles.blob.core.windows.net/coursefiles/XPYS30/RDS-2013-0009.4_Data_Format5_SQLite.zip
+  - Found in: exercises/ch05/ex3/ex_5-3.ipynb
+- https://www.murach.com/python_analysis/FPA_FOD_20170508.zip
+- Replace with: https://onlcfiles.blob.core.windows.net/coursefiles/XPYS30/FPA_FOD_20170508.zip
+  - Found in: case_studies/fires/fires_case_study.ipynb, data/download_more_data.ipynb, solutions/ch05/ex3/ex_5-3_sol.ipynb
+
+### ONLC Course Files
+- https://onlcfiles.blob.core.windows.net/coursefiles/XPYS30/
+  - Found in: data/onlc_get_big_files.ipynb
+
+## URLs Found in Data Content (Not Source URLs)
+
+### Polling/Survey Source URLs (Found in data tables)
+- https://www.washingtonpost.com/news/the-fix/wp/2016/11/08/the-final-washington-postabcnews-poll-shows-clinton-with-a-4-point-lead/
+- https://datastudio.google.com/u/0/#/org//reporting/0B-Q3N6c7wamxOWpHdlJDbkx6dEE/page/V9WB
+- http://projects.fivethirtyeight.com/polls/2016-11-06-ABC_WP/
+- https://d25d2506sfb94s.cloudfront.net/cumulus_uploads/document/ctucuikdsj/econTabReport.pdf
+- http://www.gravispolls.com/2016/11/final-national-poll/
+- https://cola.unh.edu/sites/cola.unh.edu/files/research_publications/2016_post_election_poll_fs.pdf
+- http://www.reuters.com/statesofthenation/
+- https://www.siena.edu/assets/files/news/SNY0816%20Crosstabs.pdf
+- https://law.marquette.edu/poll/2016/06/15/new-marquette-law-school-poll-finds-walker-leading-barrett-50-to-44-in-hypothetical-gubernatorial-matchup/
+- https://www.surveymonkey.com/elections/map?poll=sm-lv
+- https://drive.google.com/drive/u/0/folders/0B2DQuwNhgNi4UFdoSU9PS1VzdnM
+- http://projects.fivethirtyeight.com.s3.amazonaws.com/polls/20161108_polls.csv
+- http://www.publicpolicypolling.com/pdf/2015/PPP_Release_IA_111416.pdf
+- http://www.desmoinesregister.com/story/news/politics/iowa-poll/2016/11/05/iowa-poll-trump-leads-clinton-even-more-registered-voters-likely-voters-considered/93285936/
+- https://twitter.com/MULawPoll
+- http://www.nytimes.com/2016/11/08/upshot/trumps-narrow-path-to-victory.html
+- http://nelpaction.org/wp-content/uploads/2016/11/Nevada-Latino-Election-Eve-Poll-Nov.-2016.pdf
+- http://www.highpoint.edu/blog/2016/03/hpu-poll-finds-trump-and-clinton-lead-in-n-c/
+- https://www.nccivitas.org/2016/civitas-releases-final-2016-north-carolina-presidential-poll/
+
+## Reference/Source Attribution URLs
+
+### Basketball Analytics Reference
+- http://savvastjortjoglou.com/nba-shot-sharts.html
+  - Found in: case_studies/curry/curry_case_study.ipynb, exercises/ch15/ex_15-1_curry.ipynb, solutions/ch15/ex_15-1_curry_sol.ipynb
+
+## Currently Updated/Replacement URLs
+
+The following URLs have been updated to use the GitHub repository:
+- Original CDC URL (commented out): https://data.cdc.gov/api/views/v6ab-adf5/rows.csv?accessType=DOWNLOAD
+- New GitHub URL: https://raw.githubusercontent.com/ONLC-ClassMaterials/XPYS30-PythonDataAnalysis/refs/heads/main/data/mortality.csv
+
+## Notes
+
+1. Many URLs in data tables are from the actual polling/survey data content and should remain as-is
+2. The mortality data URLs in some files may need to be updated to use the GitHub repository version
+3. Some URLs point to external data sources that may need local mirrors for course stability
+4. The FiveThirtyEight URLs are used for polling data and may need alternatives if external access is restricted
